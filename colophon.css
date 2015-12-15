@@ -25,7 +25,7 @@ margin: 0;
 padding: 0;
 padding-left: 2px;
 }
-p.title {
+header, p.title {
 text-transform: lowercase;
 font-variant: small-caps;
 padding-left: 2px;
