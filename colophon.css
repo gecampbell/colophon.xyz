@@ -6,7 +6,7 @@ margin: 0;
 font-family:'ITC Galliard W01';
 }
 html {
-margin: 1vw;
+padding: 1vw;
 }
 h1 {
 font-weight: normal;
@@ -18,7 +18,7 @@ margin: 0;
 padding: 0 0 3vw 0;
 position: absolute;
 bottom: 0;
-left: 0;
+left: 1vw;
 }
 p {
 margin: 0;
@@ -51,4 +51,19 @@ padding: 2px;
 }
 a:hover {
 background: #eee;
+}
+
+footer {
+font-size: smaller;
+font-style: italic;
+color: #ccc;
+margin-top: .5em;
+}
+footer a:link, footer a:visited {
+padding: 0;
+color: #ccc;
+}
+footer a:hover {
+text-decoration: underline;
+background: inherit;
 }
